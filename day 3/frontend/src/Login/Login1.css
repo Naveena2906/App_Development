@@ -1,0 +1,38 @@
+.in{
+   
+    font-size: larger;
+    padding:5px;
+}
+.inlog:hover
+{
+   cursor:pointer;
+}
+
+.loginforms{
+     /* border: 2px solid aqua; */
+     width: 25%;
+     height:40vh;
+     margin-left: 34%;
+     /* margin-top: 15%; */ 
+     padding-top:10%;
+    
+} 
+.loginform{
+    padding-top: 60px;
+    border: 2px solid aqua;
+}
+.lemail,.lpass{
+    padding-top: 5px;
+    padding: 3%;
+}
+.image{
+      background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Download-Light-Blue-HD-Backgrounds.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 5px solid aqua; */
+    height: 98.3vh;
+}
+.img2{
+    margin-left: -80%;
+    margin-bottom: -9%;
+}
