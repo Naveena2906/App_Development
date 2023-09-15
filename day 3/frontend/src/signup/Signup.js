@@ -4,6 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import PersonIcon from '@mui/icons-material/Person';
 import AttachEmailOutlinedIcon from '@mui/icons-material/AttachEmailOutlined';
 import PasswordOutlinedIcon from '@mui/icons-material/PasswordOutlined';
+import { toast, ToastContainer } from 'react-toastify';   
+import "react-toastify/dist/ReactToastify.css";
 const Signup = () => {
     const[name,setName]=useState('');
     const[email,setEmail]=useState('');
@@ -23,9 +25,27 @@ const Signup = () => {
     };
     const handleSubmit=(e)=>{
         e.preventDefault();
-        Navigate("/h");
+        if(name===''||email===''||password==='')
+        {
+            toast.error("Enter all fields");
+        }
+        // Navigate("/h");
     }
   return (
+    <div className='image'>
+        <ToastContainer
+position="top-center"
+autoClose={3000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
+        <div className='signupforms'>
     <div className='signupform'>
         <div className='sname'>
             <div className='img1'><PersonIcon/></div>
@@ -43,7 +63,9 @@ const Signup = () => {
         <div className='ssubmit'>
             <button onClick={handleSubmit} className='insign'   type='submit'  required>Signup</button>
         </div>
-        <h4>Already existing acoount?<Link to='/' style={{textDecoration:'none'}}>Login</Link></h4>
+        <h4>Already existing acount?<Link to='/' style={{textDecoration:'none'}}>Login</Link></h4>
+    </div>
+    </div>
     </div>
   )
 }

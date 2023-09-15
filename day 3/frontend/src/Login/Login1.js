@@ -3,6 +3,8 @@ import './Login1.css';
 import { Link, useNavigate } from 'react-router-dom';
 import AttachEmailOutlinedIcon from '@mui/icons-material/AttachEmailOutlined';
 import PasswordOutlinedIcon from '@mui/icons-material/PasswordOutlined';
+import { toast, ToastContainer } from 'react-toastify';   
+import "react-toastify/dist/ReactToastify.css";
 const Login1 = () => {
   const [email,setEmail]=useState('');
   const [password,setPassword]=useState('');
@@ -17,10 +19,30 @@ const Login1 = () => {
    };
  const handleSubmit=(e)=>{
    e.preventDefault();
-  navigate("/h");
+   if(email===''||password==='')
+   {
+    toast.error("Enter all fields");
+   }
+    else{
+
+     navigate("/h");
+   }
+
  }
   return (
     <div className='image'> 
+    <ToastContainer
+position="top-center"
+autoClose={3000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
     <div className='loginforms'>
     <div className='loginform'>
             {/* <label className='log'>Email</label> */}
