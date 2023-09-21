@@ -1,0 +1,95 @@
+.column{
+    flex: 50%;
+    /* display: grid;
+    margin-left: 40%;
+    margin-bottom: -55%; */
+    cursor: pointer;
+    /* border: 2px solid; */
+}
+.column img{
+    border: 2px solid black;
+    margin-top: -80%;
+    border-radius: 10%;
+    
+}
+.column1{
+    flex:50%;
+}
+.column1 img{
+    margin-top: -80%;
+    border: 2px solid black;
+    margin-left: -90%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30%;
+    
+}
+.column2{
+    flex: 50%;
+}
+.column2 img{
+    margin-top: -40%;
+    border-radius: 10%;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+
+  .image-name {
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 23%;
+    /* right: 0; */
+    /* background-color: rgba(0, 0, 0, 0.7);  */
+    color:black;
+    padding: 5px;
+    transform: translate(0, -50%); /* Position it in the middle vertically */
+    opacity: 0; /* Initially hide the image name */
+    transition: opacity 0.3s; /* Add smooth transition for opacity */
+  }
+  
+  /* Show the tooltip on hover */
+  .column:hover .image-name {
+    opacity: 1;
+  }
+.profiles{
+    border: 2px solid black;
+    position: absolute;
+    background-color: white;
+
+  width: 10%;
+  height: 90%;
+  margin-top: 6.5%;
+  right: 21px;
+}
+.img1{
+    font-size: medium;
+}
+  
+
+
+/* ImageDisplay.css */
+.image-container {
+    position: relative;
+  }
+  
+  .image-clicked {
+    cursor: pointer; /* Add a pointer cursor to indicate clickability */
+  }
+  
+  .content {
+    display: none;
+    /* Add additional styles for appearance */
+  }
+  
+  
+  
+  
+  
+  
+  

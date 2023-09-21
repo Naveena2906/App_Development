@@ -1,0 +1,42 @@
+.in{
+   
+    font-size: larger;
+    padding:5px;
+}
+.inlog:hover
+{
+   cursor:pointer;
+}
+
+.loginforms{
+     /* border: 2px solid aqua; */
+     width: 25%;
+     height:40vh;
+     margin-left: 38%;
+     /* margin-top: 15%; */ 
+     padding-top:10%;
+    
+} 
+.loginform{
+    padding-top: 60px;
+    border: 2px solid rgb(45, 44, 44)
+}
+.lemail,.lpass{
+    padding-top: 5px;
+    padding: 3%;
+}
+.image{
+      background-image: url('https://www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 5px solid aqua; */
+    height: 98.3vh;
+}
+.img2{
+    margin-left: -80%;
+    margin-bottom: -9%;
+}
+.inlog{
+    padding: 2%;
+    border-radius: 2%;
+}
