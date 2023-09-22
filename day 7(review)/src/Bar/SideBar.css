@@ -1,0 +1,38 @@
+.sidebar{
+    width:15vw;
+    height:99.5vh;
+    /* background-color: aqua; */
+    background-color:aliceblue;
+    background-color: bisque;
+    /* align-items: center; */
+     /* display: flex;  */
+    /* justify-content: center; */
+    top:0;
+    /* padding: 5%; */
+    text-decoration: none;
+    
+}
+.d-flex-c{
+    display: flex;
+     /* align-items: center;  */
+    justify-content: center;
+      flex-direction: column; 
+      /* margin-top: 20px; */
+    }
+    .sidebar button{
+    margin-bottom: 17px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.cat{
+    margin-left: -55%;
+    margin-bottom: -11%;
+}
+.cat1{
+    margin-left: -66%;
+    margin-bottom: -11%;
+}
+.grid-container{
+    margin-left: 200%;
+    display: -ms-inline-grid;
+}

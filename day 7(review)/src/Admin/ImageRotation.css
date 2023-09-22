@@ -1,0 +1,26 @@
+/* ImageRotation.css */
+.image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add a smooth transition for rotation */
+  }
+  
+  .rotate {
+    transform: rotate(45deg); /* Rotate the container when the 'rotate' class is applied */
+    cursor: pointer; /* Add a pointer cursor to indicate clickability */
+  }
+  
+  .image-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc; /* Background color for content area */
+  }
+  
+  .image-content p {
+    font-size: 18px;
+  }
+  

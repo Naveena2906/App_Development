@@ -1,0 +1,46 @@
+.insign:hover{
+  cursor: pointer;
+}
+.sname{
+    margin-top: 17%;
+}
+.sname{
+    padding: 1%;
+}
+.semail{
+    padding: 1%;
+}
+.spass{
+    padding: 1%;
+}
+.sign{
+    border-radius: 4px;
+    padding: 2%;
+}
+.insign{
+    padding: 1%;
+    width: 14%;
+
+}
+::placeholder{
+    font-size: 16px;
+}
+.signupforms{
+
+    /* border: 2px solid aqua; */
+    width: 30%;
+    height:20vh;
+    padding-top: 10%;
+    margin-left: 35%;
+}
+.signupform{
+    padding-top: 10px;
+    border: 2px solid black;
+}
+.img1{
+    margin-left: -50%;
+    margin-bottom: -7%;
+}
+.image{
+    background-image: url('https://www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg');
+}
