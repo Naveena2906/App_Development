@@ -1,0 +1,98 @@
+/* Reset default margin and padding for better consistency */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+} */
+
+/* .faqs {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.collapsible {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+    background-color: #2980b9;
+} */
+/* 
+.answer {
+    display: none;
+   
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+} */
+/* 
+.answer p {
+    margin-bottom: 10px;
+} */
+
+/* Style the expand/collapse icon */
+/* .collapsible::after {
+    content: '\002B'; 
+    float: right;
+    font-weight: bold;
+}
+
+.active::after {
+    content: "\2212"; 
+} */
+
+
+
+
+
+
+/* Faq.css */
+.collapsible {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    transition: background-color 0.4s;
+  }
+  
+  .collapsible:hover {
+    background-color: #ddd;
+  }
+  
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-weight: 200;
+  }
+  
+  .answer.active {
+    max-height: 100px; /* Set the maximum height you want for the answer */
+    transition: max-height 0.25s ease-in;
+  }
+  

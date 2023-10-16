@@ -1,0 +1,77 @@
+/* .content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* /* width:79vw;
+    height:83vh; */
+    /* margin-left: 25%; */
+    /* margin-top:15%; */
+    /* border:2px solid gray; */
+    /* width:15vw; */
+    /* top:15%; */
+/* } */ */
+.column{
+    flex: 50%;
+    /* display: grid;
+    margin-left: 40%;
+    margin-bottom: -55%; */
+}
+.column img{
+    margin-top: -80%;
+
+}
+.column1{
+    flex:50%;
+}
+.column1 img{
+    margin-top: -80%;
+    margin-left: -120%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30%;
+    
+}
+
+
+
+
+.content{
+    width:75vw;
+    height:85vh;
+    /* border:2px solid gray; */
+    position: absolute;
+    margin-left: 15%;
+    /* margin-top: -45%; */
+ }
+ .main{
+     height: 100vh;
+     width:100vw;
+ }
+
+
+.upprodbody{
+    border:2px solid black;
+    width:30vw;
+    height:70vh;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Addproduct */
+.aid{
+    width:"20%";
+    margin-left:"45%";
+}
+.aimage{
+    width:"20%";
+    margin-left:"40%";
+    padding: 10px;
+}
+.vptable td,.vptable th{
+    border:1px solid transparent;
+    padding: 28px;
+}
